@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Data;
 using System.IO;
+using System.Linq;
 using Avalonia;
 using Avalonia.Controls;
+using Avalonia.Interactivity;
 using Avalonia.Markup.Xaml;
 using Avalonia.Media;
 using Avalonia.Media.Imaging;
@@ -16,7 +18,6 @@ namespace PR10;
 public partial class ProductsPage : UserControl
 {
     private Database _db = new Database();
-    private Product _product = new Product();
     private ObservableCollection<Product> _products = new ObservableCollection<Product>();
 
     private string _sql =
@@ -29,7 +30,6 @@ public partial class ProductsPage : UserControl
     {
         InitializeComponent();
         ShowTable(_sql);
-        
     }
 
     public void ShowTable(string sql)
@@ -60,6 +60,26 @@ public partial class ProductsPage : UserControl
         _db.CloseConnection();
         LBoxProducts.ItemsSource = _products;
     }
+    
 
+    private void SearchTBox_OnTextChanged(object? sender, TextChangedEventArgs e)
+    {
+        ObservableCollection<Product> search =
+            new ObservableCollection<Product>(_products.Where(x =>
+                x.ProductName.ToLower().Contains(SearchTBox.Text.ToLower())));
+        LBoxProducts.ItemsSource = search;
+    }
+
+    private void OrderBtn_OnClick(object? sender, RoutedEventArgs e)
+    {
+        ObservableCollection<Product> orderBy = new ObservableCollection<Product>(_products.OrderBy(x => x.Price));
+        LBoxProducts.ItemsSource = orderBy;
+    }
+
+    private void OrderDescBtn_OnClick(object? sender, RoutedEventArgs e)
+    {
+        ObservableCollection<Product> orderByDesc = new ObservableCollection<Product>(_products.OrderByDescending(x => x.Price));
+        LBoxProducts.ItemsSource = orderByDesc;
+    }
     
 }
