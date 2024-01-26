@@ -3,6 +3,8 @@
   <component name="AvaloniaProject">
     <option name="projectPerEditor">
       <map>
+        <entry key="PR10/App.axaml" value="PR10/PR10.csproj" />
+        <entry key="PR10/AuthWindow.axaml" value="PR10/PR10.csproj" />
         <entry key="PR10/MainWindow.axaml" value="PR10/PR10.csproj" />
         <entry key="PR10/ProductsPage.axaml" value="PR10/PR10.csproj" />
       </map>

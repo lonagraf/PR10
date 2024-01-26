@@ -14,6 +14,7 @@
           "Avalonia.Fonts.Inter": "11.0.2",
           "Avalonia.Themes.Fluent": "11.0.2",
           "FluentAvaloniaUI": "2.0.1",
+          "MessageBox.Avalonia": "3.1.2",
           "MySql.Data": "8.3.0"
         },
         "runtime": {
@@ -75,17 +76,17 @@
           "runtimes/win-arm64/native/av_libglesv2.dll": {
             "rid": "win-arm64",
             "assetType": "native",
-            "fileVersion": "2.1.0.0"
+            "fileVersion": "0.0.0.0"
           },
           "runtimes/win-x64/native/av_libglesv2.dll": {
             "rid": "win-x64",
             "assetType": "native",
-            "fileVersion": "2.1.0.0"
+            "fileVersion": "0.0.0.0"
           },
           "runtimes/win-x86/native/av_libglesv2.dll": {
             "rid": "win-x86",
             "assetType": "native",
-            "fileVersion": "2.1.0.0"
+            "fileVersion": "0.0.0.0"
           }
         }
       },
@@ -279,6 +280,29 @@
           }
         }
       },
+      "ColorTextBlock.Avalonia/11.0.0-d1": {
+        "dependencies": {
+          "Avalonia": "11.0.2"
+        },
+        "runtime": {
+          "lib/net6.0/ColorTextBlock.Avalonia.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.0.0"
+          }
+        }
+      },
+      "DialogHost.Avalonia/0.7.5": {
+        "dependencies": {
+          "Avalonia": "11.0.2",
+          "System.Reactive": "6.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/DialogHost.Avalonia.dll": {
+            "assemblyVersion": "0.7.5.0",
+            "fileVersion": "0.7.5.0"
+          }
+        }
+      },
       "FluentAvaloniaUI/2.0.1": {
         "dependencies": {
           "Avalonia": "11.0.2",
@@ -398,6 +422,31 @@
           "lib/net6.0/K4os.Hash.xxHash.dll": {
             "assemblyVersion": "1.0.8.0",
             "fileVersion": "1.0.8.0"
+          }
+        }
+      },
+      "Markdown.Avalonia.Tight/11.0.0-d1": {
+        "dependencies": {
+          "Avalonia": "11.0.2",
+          "ColorTextBlock.Avalonia": "11.0.0-d1"
+        },
+        "runtime": {
+          "lib/net6.0/Markdown.Avalonia.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.0.0"
+          }
+        }
+      },
+      "MessageBox.Avalonia/3.1.2": {
+        "dependencies": {
+          "Avalonia": "11.0.2",
+          "DialogHost.Avalonia": "0.7.5",
+          "Markdown.Avalonia.Tight": "11.0.0-d1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/MsBox.Avalonia.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       },
@@ -692,27 +741,27 @@
           "runtimes/win-x64/native/comerr64.dll": {
             "rid": "win-x64",
             "assetType": "native",
-            "fileVersion": "4.1.0.0"
+            "fileVersion": "0.0.0.0"
           },
           "runtimes/win-x64/native/gssapi64.dll": {
             "rid": "win-x64",
             "assetType": "native",
-            "fileVersion": "4.1.0.0"
+            "fileVersion": "0.0.0.0"
           },
           "runtimes/win-x64/native/k5sprt64.dll": {
             "rid": "win-x64",
             "assetType": "native",
-            "fileVersion": "4.1.0.0"
+            "fileVersion": "0.0.0.0"
           },
           "runtimes/win-x64/native/krb5_64.dll": {
             "rid": "win-x64",
             "assetType": "native",
-            "fileVersion": "4.1.0.0"
+            "fileVersion": "0.0.0.0"
           },
           "runtimes/win-x64/native/krbcc64.dll": {
             "rid": "win-x64",
             "assetType": "native",
-            "fileVersion": "4.1.0.0"
+            "fileVersion": "0.0.0.0"
           }
         }
       },
@@ -919,6 +968,14 @@
           "System.Resources.ResourceManager": "4.3.0",
           "System.Runtime": "4.3.0",
           "System.Threading": "4.3.0"
+        }
+      },
+      "System.Reactive/6.0.0": {
+        "runtime": {
+          "lib/net6.0/System.Reactive.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.1"
+          }
         }
       },
       "System.Reflection/4.3.0": {
@@ -1263,6 +1320,20 @@
       "path": "bouncycastle.cryptography/2.2.1",
       "hashPath": "bouncycastle.cryptography.2.2.1.nupkg.sha512"
     },
+    "ColorTextBlock.Avalonia/11.0.0-d1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sQAZgCwCS7vT5qGlxivrx6WAb1xkP47p4gAVmv5GQapfW8YXuk9a/t6QLmjJqFTJAAdk8M1EAUde0Ox5HPxjHA==",
+      "path": "colortextblock.avalonia/11.0.0-d1",
+      "hashPath": "colortextblock.avalonia.11.0.0-d1.nupkg.sha512"
+    },
+    "DialogHost.Avalonia/0.7.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jpXMSP2dy/K5UY6lclNjVgeqkitT+Vh8Aj4cLD64TShnDoBxfKOqHd8TMaFCkU5fa7hfhysdxZLZN2IrSwUZcw==",
+      "path": "dialoghost.avalonia/0.7.5",
+      "hashPath": "dialoghost.avalonia.0.7.5.nupkg.sha512"
+    },
     "FluentAvaloniaUI/2.0.1": {
       "type": "package",
       "serviceable": true,
@@ -1332,6 +1403,20 @@
       "sha512": "sha512-Wp2F7BamQ2Q/7Hk834nV9vRQapgcr8kgv9Jvfm8J3D0IhDqZMMl+a2yxUq5ltJitvXvQfB8W6K4F4fCbw/P6YQ==",
       "path": "k4os.hash.xxhash/1.0.8",
       "hashPath": "k4os.hash.xxhash.1.0.8.nupkg.sha512"
+    },
+    "Markdown.Avalonia.Tight/11.0.0-d1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fwl4wrvTdLFLUfkFezRY6SSfPmXIJcRyYChMDiMKFEGo1rKdPMnmcJbK+BWYXxZS+g66E6SFl/ca4kakhTk1HQ==",
+      "path": "markdown.avalonia.tight/11.0.0-d1",
+      "hashPath": "markdown.avalonia.tight.11.0.0-d1.nupkg.sha512"
+    },
+    "MessageBox.Avalonia/3.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MX6qJuKZQytw9Bek8JK7Zr+C7AykNnrQVM7U0mbAvMORFsG/DOrLRQH+lT1pgQnHVYInS6Mx8Rgjy928abGIyg==",
+      "path": "messagebox.avalonia/3.1.2",
+      "hashPath": "messagebox.avalonia.3.1.2.nupkg.sha512"
     },
     "MicroCom.CodeGenerator.MSBuild/0.11.0": {
       "type": "package",
@@ -1570,6 +1655,13 @@
       "sha512": "sha512-bdX+80eKv9bN6K4N+d77OankKHGn6CH711a6fcOpMQu2Fckp/Ft4L/kW9WznHpyR0NRAvJutzOMHNNlBGvxQzQ==",
       "path": "system.objectmodel/4.3.0",
       "hashPath": "system.objectmodel.4.3.0.nupkg.sha512"
+    },
+    "System.Reactive/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-31kfaW4ZupZzPsI5PVe77VhnvFF55qgma7KZr/E0iFTs6fmdhhG8j0mgEx620iLTey1EynOkEfnyTjtNEpJzGw==",
+      "path": "system.reactive/6.0.0",
+      "hashPath": "system.reactive.6.0.0.nupkg.sha512"
     },
     "System.Reflection/4.3.0": {
       "type": "package",

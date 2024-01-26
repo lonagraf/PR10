@@ -365,6 +365,35 @@
           }
         }
       },
+      "ColorTextBlock.Avalonia/11.0.0-d1": {
+        "type": "package",
+        "dependencies": {
+          "Avalonia": "11.0.0-rc1.1"
+        },
+        "compile": {
+          "lib/net6.0/ColorTextBlock.Avalonia.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/ColorTextBlock.Avalonia.dll": {}
+        }
+      },
+      "DialogHost.Avalonia/0.7.5": {
+        "type": "package",
+        "dependencies": {
+          "Avalonia": "11.0.0-rc2.1",
+          "System.Reactive": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/DialogHost.Avalonia.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/DialogHost.Avalonia.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "FluentAvaloniaUI/2.0.1": {
         "type": "package",
         "dependencies": {
@@ -540,6 +569,33 @@
           "lib/net6.0/K4os.Hash.xxHash.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "Markdown.Avalonia.Tight/11.0.0-d1": {
+        "type": "package",
+        "dependencies": {
+          "Avalonia": "11.0.0-rc1.1",
+          "ColorTextBlock.Avalonia": "11.0.0-d1"
+        },
+        "compile": {
+          "lib/net6.0/Markdown.Avalonia.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Markdown.Avalonia.dll": {}
+        }
+      },
+      "MessageBox.Avalonia/3.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Avalonia": "11.0.0",
+          "DialogHost.Avalonia": "0.7.5",
+          "Markdown.Avalonia.Tight": "11.0.0-d1"
+        },
+        "compile": {
+          "lib/netstandard2.0/MsBox.Avalonia.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MsBox.Avalonia.dll": {}
         }
       },
       "MicroCom.CodeGenerator.MSBuild/0.11.0": {
@@ -1291,6 +1347,22 @@
         },
         "runtime": {
           "lib/netstandard1.3/System.ObjectModel.dll": {}
+        }
+      },
+      "System.Reactive/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/System.Reactive.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Reactive.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
         }
       },
       "System.Reflection/4.3.0": {
@@ -2220,6 +2292,36 @@
         "packageIcon.png"
       ]
     },
+    "ColorTextBlock.Avalonia/11.0.0-d1": {
+      "sha512": "sQAZgCwCS7vT5qGlxivrx6WAb1xkP47p4gAVmv5GQapfW8YXuk9a/t6QLmjJqFTJAAdk8M1EAUde0Ox5HPxjHA==",
+      "type": "package",
+      "path": "colortextblock.avalonia/11.0.0-d1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "colortextblock.avalonia.11.0.0-d1.nupkg.sha512",
+        "colortextblock.avalonia.nuspec",
+        "lib/net461/ColorTextBlock.Avalonia.dll",
+        "lib/net6.0/ColorTextBlock.Avalonia.dll",
+        "lib/netcoreapp2.0/ColorTextBlock.Avalonia.dll",
+        "lib/netstandard2.0/ColorTextBlock.Avalonia.dll"
+      ]
+    },
+    "DialogHost.Avalonia/0.7.5": {
+      "sha512": "jpXMSP2dy/K5UY6lclNjVgeqkitT+Vh8Aj4cLD64TShnDoBxfKOqHd8TMaFCkU5fa7hfhysdxZLZN2IrSwUZcw==",
+      "type": "package",
+      "path": "dialoghost.avalonia/0.7.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "dialoghost.avalonia.0.7.5.nupkg.sha512",
+        "dialoghost.avalonia.nuspec",
+        "icon.png",
+        "lib/netstandard2.0/DialogHost.Avalonia.dll",
+        "lib/netstandard2.0/DialogHost.Avalonia.xml"
+      ]
+    },
     "FluentAvaloniaUI/2.0.1": {
       "sha512": "eISTCm+2K77HhMv7bbVSeMwz2vYVHIinHo5HeYdKiiIjyt7eqvzqswJVlhbLjDabuJp0IeU9ZOXCFqfsEOOPKA==",
       "type": "package",
@@ -2491,6 +2593,35 @@
         "lib/netstandard2.0/K4os.Hash.xxHash.xml",
         "lib/netstandard2.1/K4os.Hash.xxHash.dll",
         "lib/netstandard2.1/K4os.Hash.xxHash.xml"
+      ]
+    },
+    "Markdown.Avalonia.Tight/11.0.0-d1": {
+      "sha512": "fwl4wrvTdLFLUfkFezRY6SSfPmXIJcRyYChMDiMKFEGo1rKdPMnmcJbK+BWYXxZS+g66E6SFl/ca4kakhTk1HQ==",
+      "type": "package",
+      "path": "markdown.avalonia.tight/11.0.0-d1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Markdown.Avalonia.Tight.md",
+        "lib/net461/Markdown.Avalonia.dll",
+        "lib/net6.0/Markdown.Avalonia.dll",
+        "lib/netcoreapp2.0/Markdown.Avalonia.dll",
+        "lib/netstandard2.0/Markdown.Avalonia.dll",
+        "markdown.avalonia.tight.11.0.0-d1.nupkg.sha512",
+        "markdown.avalonia.tight.nuspec"
+      ]
+    },
+    "MessageBox.Avalonia/3.1.2": {
+      "sha512": "MX6qJuKZQytw9Bek8JK7Zr+C7AykNnrQVM7U0mbAvMORFsG/DOrLRQH+lT1pgQnHVYInS6Mx8Rgjy928abGIyg==",
+      "type": "package",
+      "path": "messagebox.avalonia/3.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.jpg",
+        "lib/netstandard2.0/MsBox.Avalonia.dll",
+        "messagebox.avalonia.3.1.2.nupkg.sha512",
+        "messagebox.avalonia.nuspec"
       ]
     },
     "MicroCom.CodeGenerator.MSBuild/0.11.0": {
@@ -4122,6 +4253,34 @@
         "system.objectmodel.nuspec"
       ]
     },
+    "System.Reactive/6.0.0": {
+      "sha512": "31kfaW4ZupZzPsI5PVe77VhnvFF55qgma7KZr/E0iFTs6fmdhhG8j0mgEx620iLTey1EynOkEfnyTjtNEpJzGw==",
+      "type": "package",
+      "path": "system.reactive/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net6.0-windows10.0.19041/_._",
+        "build/net6.0/_._",
+        "buildTransitive/net6.0-windows10.0.19041/_._",
+        "buildTransitive/net6.0/_._",
+        "icon.png",
+        "lib/net472/System.Reactive.dll",
+        "lib/net472/System.Reactive.xml",
+        "lib/net6.0-windows10.0.19041/System.Reactive.dll",
+        "lib/net6.0-windows10.0.19041/System.Reactive.xml",
+        "lib/net6.0/System.Reactive.dll",
+        "lib/net6.0/System.Reactive.xml",
+        "lib/netstandard2.0/System.Reactive.dll",
+        "lib/netstandard2.0/System.Reactive.xml",
+        "lib/uap10.0.18362/System.Reactive.dll",
+        "lib/uap10.0.18362/System.Reactive.pri",
+        "lib/uap10.0.18362/System.Reactive.xml",
+        "readme.md",
+        "system.reactive.6.0.0.nupkg.sha512",
+        "system.reactive.nuspec"
+      ]
+    },
     "System.Reflection/4.3.0": {
       "sha512": "KMiAFoW7MfJGa9nDFNcfu+FpEdiHpWgTcS2HdMpDvt9saK3y/G4GwprPyzqjFH9NTaGPQeWNHU+iDlDILj96aQ==",
       "type": "package",
@@ -5550,30 +5709,29 @@
       "Avalonia.Fonts.Inter >= 11.0.2",
       "Avalonia.Themes.Fluent >= 11.0.2",
       "FluentAvaloniaUI >= 2.0.1",
+      "MessageBox.Avalonia >= 3.1.2",
       "MySql.Data >= 8.3.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\lonah\\.nuget\\packages\\": {}
+    "/home/KHPK.RU/student/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lonah\\RiderProjects\\PR10\\PR10\\PR10.csproj",
+      "projectUniqueName": "/home/KHPK.RU/student/Рабочий стол/PR10/PR10/PR10.csproj",
       "projectName": "PR10",
-      "projectPath": "C:\\Users\\lonah\\RiderProjects\\PR10\\PR10\\PR10.csproj",
-      "packagesPath": "C:\\Users\\lonah\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lonah\\RiderProjects\\PR10\\PR10\\obj\\",
+      "projectPath": "/home/KHPK.RU/student/Рабочий стол/PR10/PR10/PR10.csproj",
+      "packagesPath": "/home/KHPK.RU/student/.nuget/packages/",
+      "outputPath": "/home/KHPK.RU/student/Рабочий стол/PR10/PR10/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\lonah\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/KHPK.RU/student/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -5616,6 +5774,10 @@
             "target": "Package",
             "version": "[2.0.1, )"
           },
+          "MessageBox.Avalonia": {
+            "target": "Package",
+            "version": "[3.1.2, )"
+          },
           "MySql.Data": {
             "target": "Package",
             "version": "[8.3.0, )"
@@ -5637,7 +5799,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/7.0.109/RuntimeIdentifierGraph.json"
       }
     }
   }

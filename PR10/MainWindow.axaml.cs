@@ -16,4 +16,11 @@ public partial class MainWindow : Window
         ProductsPage productsPage = new ProductsPage();
         MainPanel.Children.Add(productsPage);
     }
+
+    private void ExitBtn_OnClick(object? sender, RoutedEventArgs e)
+    {
+        AuthWindow authWindow = new AuthWindow();
+        this.Hide();
+        authWindow.Show();
+    }
 }

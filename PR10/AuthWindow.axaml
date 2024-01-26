@@ -1,0 +1,33 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="400" d:DesignHeight="450"
+        x:Class="PR10.AuthWindow"
+        Title="AuthWindow"
+        Width="400"
+        Height="450"
+        ExtendClientAreaToDecorationsHint="True">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="2"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0">
+            <TextBlock Text="Вход" FontWeight="Bold" HorizontalAlignment="Center" Margin="5" />
+            <TextBlock Text="Введите логин и пароль" HorizontalAlignment="Center" FontWeight="Light" FontSize="12"/>
+        </StackPanel>
+        <StackPanel Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock Text="Логин" Margin="5"/>
+            <TextBox Name="LoginTBox" Width="150" Margin="5"/> 
+            <TextBlock Text="Пароль" Margin="5"/>
+            <TextBox Name="PasswordTBox" Width="150" Margin="5"/> 
+            <Button Name="AuthBtn" Content="Войти" HorizontalAlignment="Center" Margin="5" Background="Transparent" BorderBrush="CornflowerBlue" Click="AuthBtn_OnClick"/>
+        </StackPanel>
+        <Grid Grid.Row="1" Background="CornflowerBlue"/>
+        <Grid Grid.Row="3" Background="CornflowerBlue"/>
+        
+    </Grid>
+</Window>

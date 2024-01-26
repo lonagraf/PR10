@@ -55,5 +55,8 @@
         </ListBox>
 
     </Grid>
+        <StackPanel Orientation="Horizontal">
+            <Button Name="BackBtn" Content="Назад" Background="Transparent" BorderBrush="CornflowerBlue" BorderThickness="2" Margin="5" />
+        </StackPanel>
     </DockPanel>
 </UserControl>

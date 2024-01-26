@@ -23,9 +23,9 @@ public partial class ProductsPage : UserControl
     private string _sql =
         "select product_id, article, product_name, unit_name, price, max_discount, producer_name, supplier_name, category_name, current_discount, amount, description, image from product" +
         " join producer p on p.producer_id = product.producer" +
-        " join pr10.supplier s on product.supplier = s.supplier_id" +
-        " join pr10.unit u on product.unit = u.unit_id" +
-        " join pr10.product_category pc on product.category = pc.product_category_id";
+        " join supplier s on product.supplier = s.supplier_id" +
+        " join unit u on product.unit = u.unit_id" +
+        " join product_category pc on product.category = pc.product_category_id";
     public ProductsPage()
     {
         InitializeComponent();

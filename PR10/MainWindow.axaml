@@ -20,7 +20,11 @@
         </Grid>
         <Grid Grid.Row="1" Background="CornflowerBlue"></Grid>
         <Grid Grid.Row="3" Background="CornflowerBlue"></Grid>
-        <Panel Grid.Row="2" Name="MainPanel"><Button Name="ProductsBtn" Content="Товары" HorizontalAlignment="Center" Background="Transparent" BorderBrush="CornflowerBlue" BorderThickness="2" Width="100" Height="45" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="20" FontWeight="Light" Click="ProductsBtn_OnClick"></Button>
+        <Panel Grid.Row="2" Name="MainPanel">
+            <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Button Name="ProductsBtn" Content="Товары" HorizontalAlignment="Center" Background="Transparent" BorderBrush="CornflowerBlue" BorderThickness="2" Width="100" Height="45" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="20" FontWeight="Light" Click="ProductsBtn_OnClick" Margin="5"></Button>
+            <Button Name="ExitBtn" Content="Выход" HorizontalAlignment="Center" Background="Transparent" BorderBrush="CornflowerBlue" BorderThickness="2" Width="100" Height="45" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="20" FontWeight="Light" Margin="5" Click="ExitBtn_OnClick"></Button>
+            </StackPanel>
         </Panel>
     </Grid>
 </Window>
