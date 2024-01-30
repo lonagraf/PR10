@@ -11,18 +11,17 @@
     <UserControl.Resources>
         <global:ImageConverter x:Key="ImageConverter" />
     </UserControl.Resources>
+    <Panel Name="Panel">
     <DockPanel>
         <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" Margin="5">
-            <Button Name="AddBtn" Content="Добавить" Background="Transparent" BorderBrush="CornflowerBlue" BorderThickness="2" Margin="5"/>
+            <Button Name="AddBtn" Content="Добавить" Background="Transparent" BorderBrush="CornflowerBlue" BorderThickness="2" Margin="5" Click="AddBtn_OnClick"/>
             <Button Name="DeleteBtn" Content="Удалить" Background="Transparent" BorderBrush="CornflowerBlue" BorderThickness="2" Margin="5"/>
-            <Button Name="EditBtn" Content="Редактировать" Background="Transparent" BorderBrush="CornflowerBlue" BorderThickness="2" Margin="5"/>
+            <TextBlock Text="Поиск:" Margin="5 12 5 0"/>
             <TextBox Name="SearchTBox" Width="200" Margin="5" TextChanged="SearchTBox_OnTextChanged"/>
-            <Button Name="OrderBtn" Content="В" Background="Transparent" BorderBrush="CornflowerBlue" BorderThickness="2" Margin="5" Click="OrderBtn_OnClick"/>
-            <Button Name="OrderDescBtn" Content="У" Background="Transparent" BorderBrush="CornflowerBlue" BorderThickness="2" Margin="5" Click="OrderDescBtn_OnClick"/>
         </StackPanel>
 
         <Grid>
-        <ListBox Name="LBoxProducts" >
+        <ListBox Name="LBoxProducts" DoubleTapped="LBoxProducts_OnDoubleTapped">
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <Grid>
@@ -55,8 +54,6 @@
         </ListBox>
 
     </Grid>
-        <StackPanel Orientation="Horizontal">
-            <Button Name="BackBtn" Content="Назад" Background="Transparent" BorderBrush="CornflowerBlue" BorderThickness="2" Margin="5" />
-        </StackPanel>
     </DockPanel>
+    </Panel>
 </UserControl>

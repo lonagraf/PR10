@@ -1,0 +1,57 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="1080" d:DesignHeight="720"
+             x:Class="PR10.AddProductPage">
+    <Panel Name="Panel">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        
+        <StackPanel Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center" >
+            <TextBlock Text="Наименование" Margin="10" FontWeight="Bold"/>
+            <TextBox  Width="200" Height="20" Name="NameTBox" Margin="10"></TextBox>
+            <TextBlock Text="Категория" Margin="10" FontWeight="Bold"/>
+            <ComboBox Width="200" Height="20" Name="CategoryCmb" Margin="10"/>
+            <TextBlock Text="Поставщик" Margin="10" FontWeight="Bold"/>
+            <ComboBox Width="200" Height="20" Name="SupplierCmb" Margin="10"/>
+            <TextBlock Text="Производитель" Margin="10" FontWeight="Bold"/>
+            <ComboBox Width="200" Height="20" Name="ProducerCmb" Margin="10"/>
+            <TextBlock Text="Максимальная скидка" Margin="10" FontWeight="Bold"/>
+            <TextBox Width="200" Height="20" Name="MaxDiscountTBox" Margin="10"/>
+        </StackPanel>
+        <StackPanel Grid.Row="0" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBlock Text="Артикул" Margin="10" FontWeight="Bold"/>
+            <TextBox Width="200" Height="20" Name="ArticleTBox" Margin="10"/>
+            <TextBlock Text="Количество на складе" Margin="10" FontWeight="Bold"/>
+            <TextBox Width="200" Height="20" Name="AmountTBox" Margin="10"/>
+            <TextBlock Text="Единица измерения" Margin="10" FontWeight="Bold"/>
+            <ComboBox Width="200" Height="20" Name="UnitCmb" Margin="10"/>
+            <TextBlock Text="Стоимость за единицу" Margin="10" FontWeight="Bold"/>
+            <TextBox Width="200" Height="20" Name="PriceTBox" Margin="10"/>
+            <TextBlock Text="Действующая скидка" Margin="10" FontWeight="Bold"/>
+            <TextBox Width="200" Height="20" Name="CurrentDiscountTBox" Margin="10"/>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button Width="300" Height="250" Background="Transparent" Name="ImageBtn">
+                <StackPanel>
+                    <Image Source="Images/picture.png"/>
+                </StackPanel>
+            </Button>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBox Width="300" Height="200" Name="DescriptionTBox" AcceptsReturn="True" TextWrapping="Wrap"/>
+            <Button Name="BackBtn" Content="Назад" HorizontalAlignment="Center" FontWeight="Bold" Background="Transparent" BorderBrush="CornflowerBlue" Margin="5" Click="BackBtn_OnClick"/>
+            <Button Name="SaveBtn" Content="Сохранить" HorizontalAlignment="Center" FontWeight="Bold" Background="Transparent" BorderBrush="CornflowerBlue" Click="SaveBtn_OnClick"/>
+        </StackPanel>
+        
+    </Grid>
+    </Panel>
+</UserControl>

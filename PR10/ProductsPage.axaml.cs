@@ -6,11 +6,14 @@ using System.IO;
 using System.Linq;
 using Avalonia;
 using Avalonia.Controls;
+using Avalonia.Input;
 using Avalonia.Interactivity;
 using Avalonia.Markup.Xaml;
 using Avalonia.Media;
 using Avalonia.Media.Imaging;
 using Avalonia.Threading;
+using MsBox.Avalonia;
+using MsBox.Avalonia.Enums;
 using MySql.Data.MySqlClient;
 
 namespace PR10;
@@ -70,16 +73,54 @@ public partial class ProductsPage : UserControl
         LBoxProducts.ItemsSource = search;
     }
 
-    private void OrderBtn_OnClick(object? sender, RoutedEventArgs e)
+    private void AddBtn_OnClick(object? sender, RoutedEventArgs e)
     {
-        ObservableCollection<Product> orderBy = new ObservableCollection<Product>(_products.OrderBy(x => x.Price));
-        LBoxProducts.ItemsSource = orderBy;
+        Panel.Children.Clear();
+        AddProductPage addProductPage = new AddProductPage(null); //допилить
+        Panel.Children.Add(addProductPage);
     }
 
-    private void OrderDescBtn_OnClick(object? sender, RoutedEventArgs e)
+    private void LBoxProducts_OnDoubleTapped(object? sender, TappedEventArgs e)
     {
-        ObservableCollection<Product> orderByDesc = new ObservableCollection<Product>(_products.OrderByDescending(x => x.Price));
-        LBoxProducts.ItemsSource = orderByDesc;
+        Product selectedProduct = LBoxProducts.SelectedItem as Product;
+        if (selectedProduct != null)
+        {
+            Panel.Children.Clear();
+            AddProductPage addProductPage = new AddProductPage(selectedProduct);
+            Panel.Children.Add(addProductPage);
+        }
+    }
+
+    private void Delete(int id)
+    {
+        _db.OpenConnection();
+        string sql = "delete from product where product_id = @id";
+        MySqlCommand command = new MySqlCommand(sql, _db.GetConnection());
+        command.Parameters.AddWithValue("@id", id);
+        command.ExecuteNonQuery();
     }
     
+        /*Product selectedProduct= LBoxProducts.SelectedItem as Product;
+
+        if (selectedProduct != null)
+        {
+            var box = MessageBoxManager.GetMessageBoxStandard("Предупреждение", "Вы уверены что хотите удалить?", ButtonEnum.YesNo);
+            var result = await box.ShowAsync();
+            if (result == ButtonResult.Yes)
+            {
+                Delete(selectedProduct.ProductId);
+                var success = MessageBoxManager.GetMessageBoxStandard("Успешно", "Данные успешно удалены!", ButtonEnum.Ok);
+                var result1 = success.ShowAsync();
+            }
+            else
+            {
+                var error = MessageBoxManager.GetMessageBoxStandard("Отмена", "Операция удаления отменена!", ButtonEnum.Ok);
+                var result1 = error.ShowAsync();
+            }
+        }
+        else
+        {
+            var box = MessageBoxManager.GetMessageBoxStandard("Ошибка", "Выберите проект для удаления!", ButtonEnum.Ok);
+            var result = box.ShowAsync();
+        }*/
 }
