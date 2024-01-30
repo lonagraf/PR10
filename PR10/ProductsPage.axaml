@@ -44,7 +44,7 @@
                             </Image.Source>
                         </Image>
                         <TextBlock Grid.Column="1" Margin="5" x:CompileBindings="False" Text="{Binding ProductName}" FontWeight="Bold"/>
-                        <TextBlock Grid.Column="1" x:CompileBindings="False" Text="{Binding Description}" Margin="5 30 0 0"/>
+                        <TextBlock Grid.Column="1" x:CompileBindings="False" Text="{Binding Description}" Margin="5 30 0 0" TextWrapping="Wrap"/>
                         <TextBlock Grid.Column="1" Name="ProducerTBlock" x:CompileBindings="False" Text="{Binding Producer, StringFormat=Производитель: {0}}" Margin="5 60 0 0 "></TextBlock>
                         <TextBlock Grid.Column="1" x:CompileBindings="False" Text="{Binding Price, StringFormat={}{0:C}}" Margin="5 90 0 0"></TextBlock>
                         <TextBlock Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center" x:CompileBindings="False" Text="{Binding Amount}" FontSize="30" ></TextBlock>

@@ -3,6 +3,8 @@ using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Interactivity;
 using Avalonia.Markup.Xaml;
+using MsBox.Avalonia;
+using MsBox.Avalonia.Enums;
 using MySql.Data.MySqlClient;
 
 namespace PR10;
@@ -20,17 +22,22 @@ public partial class AddProductPage : UserControl
         LoadDataSupplierCmb();
         LoadDataProducerCmb();
         _product = product;
-        NameTBox.Text = _product.ProductName;
-        CategoryCmb.SelectedItem = _product.Category;
-        AmountTBox.Text = _product.Amount.ToString();
-        UnitCmb.SelectedItem = _product.Unit;
-        SupplierCmb.SelectedItem = _product.Supplier;
-        PriceTBox.Text = _product.Price.ToString();
-        DescriptionTBox.Text = _product.Description;
-        ProducerCmb.SelectedItem = _product.Producer;
-        ArticleTBox.Text = _product.Article;
-        MaxDiscountTBox.Text = _product.MaxDiscount.ToString();
-        CurrentDiscountTBox.Text = _product.CurrentDiscount.ToString();
+        
+        if (_product != null)
+        {
+            NameTBox.Text = _product.ProductName;
+            CategoryCmb.SelectedItem = _product.Category;
+            AmountTBox.Text = _product.Amount.ToString();
+            UnitCmb.SelectedItem = _product.Unit;
+            SupplierCmb.SelectedItem = _product.Supplier;
+            PriceTBox.Text = _product.Price.ToString();
+            DescriptionTBox.Text = _product.Description;
+            ProducerCmb.SelectedItem = _product.Producer;
+            ArticleTBox.Text = _product.Article;
+            MaxDiscountTBox.Text = _product.MaxDiscount.ToString();
+            CurrentDiscountTBox.Text = _product.CurrentDiscount.ToString();
+        }
+        
     }
 
     private void BackBtn_OnClick(object? sender, RoutedEventArgs e)
@@ -43,26 +50,61 @@ public partial class AddProductPage : UserControl
     private void SaveBtn_OnClick(object? sender, RoutedEventArgs e)
     {
         _db.OpenConnection();
-        string sql =
-            "insert into product (product_name, category, amount, unit, supplier, price, description, producer, article, max_discount, current_discount) " +
-            "values (@product, @category, @amount, @unit, @supplier, @price, @desc, @producer, @article, @max, @current)";
-        MySqlCommand command = new MySqlCommand(sql, _db.GetConnection());
-        command.Parameters.AddWithValue("@product", NameTBox.Text);
-        int selectedCategoryId = GetSelectedCategoryId(CategoryCmb.SelectedItem.ToString());
-        command.Parameters.AddWithValue("@category", selectedCategoryId);
-        command.Parameters.AddWithValue("@amount", AmountTBox.Text);
-        int selectedUnitId = GetSelectedUnitId(UnitCmb.SelectedItem.ToString());
-        command.Parameters.AddWithValue("@unit", selectedUnitId);
-        int selectedSupplierId = GetSelectedSupplierId(SupplierCmb.SelectedItem.ToString());
-        command.Parameters.AddWithValue("@supplier", selectedSupplierId);
-        command.Parameters.AddWithValue("@price", PriceTBox.Text);
-        command.Parameters.AddWithValue("@desc", DescriptionTBox.Text);
-        int selectedProducerId = GetSelectedProducerId(ProducerCmb.SelectedItem.ToString());
-        command.Parameters.AddWithValue("@producer", selectedProducerId);
-        command.Parameters.AddWithValue("@article", ArticleTBox.Text);
-        command.Parameters.AddWithValue("@max", MaxDiscountTBox.Text);
-        command.Parameters.AddWithValue("@current", CurrentDiscountTBox.Text);
-        command.ExecuteNonQuery();
+        if (_product == null)
+        {
+            string sql =
+                "insert into product (product_name, category, amount, unit, supplier, price, description, producer, article, max_discount, current_discount) " +
+                "values (@product, @category, @amount, @unit, @supplier, @price, @desc, @producer, @article, @max, @current)";
+            MySqlCommand command = new MySqlCommand(sql, _db.GetConnection());
+            command.Parameters.AddWithValue("@product", NameTBox.Text);
+            int selectedCategoryId = GetSelectedCategoryId(CategoryCmb.SelectedItem.ToString());
+            command.Parameters.AddWithValue("@category", selectedCategoryId);
+            command.Parameters.AddWithValue("@amount", AmountTBox.Text);
+            int selectedUnitId = GetSelectedUnitId(UnitCmb.SelectedItem.ToString());
+            command.Parameters.AddWithValue("@unit", selectedUnitId);
+            int selectedSupplierId = GetSelectedSupplierId(SupplierCmb.SelectedItem.ToString());
+            command.Parameters.AddWithValue("@supplier", selectedSupplierId);
+            command.Parameters.AddWithValue("@price", PriceTBox.Text);
+            command.Parameters.AddWithValue("@desc", DescriptionTBox.Text);
+            int selectedProducerId = GetSelectedProducerId(ProducerCmb.SelectedItem.ToString());
+            command.Parameters.AddWithValue("@producer", selectedProducerId);
+            command.Parameters.AddWithValue("@article", ArticleTBox.Text);
+            command.Parameters.AddWithValue("@max", MaxDiscountTBox.Text);
+            command.Parameters.AddWithValue("@current", CurrentDiscountTBox.Text);
+            command.ExecuteNonQuery();
+            var box = MessageBoxManager.GetMessageBoxStandard("Успешно", "Данные успешно добавлены", ButtonEnum.Ok,
+                Icon.Success);
+            var result = box.ShowAsync();
+        }
+        else
+        {
+            string sql =
+                "update product set product_name = @product, category = @category, amount = @amount, unit = @unit, supplier = @supplier, " +
+                "price = @price, description = @desc, producer = @producer, article = @article, max_discount = @max, current_discount = @current " +
+                "where product_id = @id";
+            MySqlCommand command = new MySqlCommand(sql, _db.GetConnection());
+            command.Parameters.AddWithValue("@id", _product.ProductId);
+            command.Parameters.AddWithValue("@product", NameTBox.Text);
+            int selectedCategoryId = GetSelectedCategoryId(CategoryCmb.SelectedItem.ToString());
+            command.Parameters.AddWithValue("@category", selectedCategoryId);
+            command.Parameters.AddWithValue("@amount", AmountTBox.Text);
+            int selectedUnitId = GetSelectedUnitId(UnitCmb.SelectedItem.ToString());
+            command.Parameters.AddWithValue("@unit", selectedUnitId);
+            int selectedSupplierId = GetSelectedSupplierId(SupplierCmb.SelectedItem.ToString());
+            command.Parameters.AddWithValue("@supplier", selectedSupplierId);
+            command.Parameters.AddWithValue("@price", PriceTBox.Text);
+            command.Parameters.AddWithValue("@desc", DescriptionTBox.Text);
+            int selectedProducerId = GetSelectedProducerId(ProducerCmb.SelectedItem.ToString());
+            command.Parameters.AddWithValue("@producer", selectedProducerId);
+            command.Parameters.AddWithValue("@article", ArticleTBox.Text);
+            command.Parameters.AddWithValue("@max", MaxDiscountTBox.Text);
+            command.Parameters.AddWithValue("@current", CurrentDiscountTBox.Text);
+            command.ExecuteNonQuery();
+            var box = MessageBoxManager.GetMessageBoxStandard("Успешно", "Данные успешно сохранены", ButtonEnum.Ok,
+                Icon.Success);
+            var result = box.ShowAsync();
+        }
+        _db.CloseConnection();
     }
     
     public void LoadDataCategoryCmb()
