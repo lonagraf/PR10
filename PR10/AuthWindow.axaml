@@ -23,7 +23,9 @@
             <TextBlock Text="Логин" Margin="5"/>
             <TextBox Name="LoginTBox" Width="150" Margin="5"/> 
             <TextBlock Text="Пароль" Margin="5"/>
-            <TextBox Name="PasswordTBox" Width="150" Margin="5"/> 
+            <TextBox Name="PasswordTBox" Width="150" Margin="5"/>
+            <TextBlock Name="CaptchaTBlock" FontSize="20" FontWeight="Bold" FontStretch="Expanded" Foreground="CornflowerBlue" HorizontalAlignment="Center"/>
+            <TextBox Name="CaptchaTBox" Width="150"/>
             <Button Name="AuthBtn" Content="Войти" HorizontalAlignment="Center" Margin="5" Background="Transparent" BorderBrush="CornflowerBlue" Click="AuthBtn_OnClick"/>
         </StackPanel>
         <Grid Grid.Row="1" Background="CornflowerBlue"/>
