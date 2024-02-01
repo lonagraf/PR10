@@ -5714,24 +5714,26 @@
     ]
   },
   "packageFolders": {
-    "/home/KHPK.RU/student/.nuget/packages/": {}
+    "C:\\Users\\lonah\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/KHPK.RU/student/Рабочий стол/PR10v2/PR10/PR10.csproj",
+      "projectUniqueName": "C:\\Users\\lonah\\RiderProjects\\PR10v3\\PR10\\PR10.csproj",
       "projectName": "PR10",
-      "projectPath": "/home/KHPK.RU/student/Рабочий стол/PR10v2/PR10/PR10.csproj",
-      "packagesPath": "/home/KHPK.RU/student/.nuget/packages/",
-      "outputPath": "/home/KHPK.RU/student/Рабочий стол/PR10v2/PR10/obj/",
+      "projectPath": "C:\\Users\\lonah\\RiderProjects\\PR10v3\\PR10\\PR10.csproj",
+      "packagesPath": "C:\\Users\\lonah\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\lonah\\RiderProjects\\PR10v3\\PR10\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/KHPK.RU/student/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\lonah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -5799,7 +5801,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/7.0.109/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
       }
     }
   }

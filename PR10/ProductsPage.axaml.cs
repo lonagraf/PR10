@@ -33,6 +33,7 @@ public partial class ProductsPage : UserControl
     {
         InitializeComponent();
         ShowTable(_sql);
+        
     }
 
     public void ShowTable(string sql)

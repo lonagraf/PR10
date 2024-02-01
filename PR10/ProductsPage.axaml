@@ -21,7 +21,7 @@
         </StackPanel>
 
         <Grid>
-        <ListBox Name="LBoxProducts" DoubleTapped="LBoxProducts_OnDoubleTapped">
+        <ListBox Name="LBoxProducts" DoubleTapped="LBoxProducts_OnDoubleTapped" >
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <Grid>

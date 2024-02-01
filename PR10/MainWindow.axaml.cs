@@ -5,9 +5,10 @@ namespace PR10;
 
 public partial class MainWindow : Window
 {
-    public MainWindow()
+    public MainWindow(string username)
     {
         InitializeComponent();
+        Block.Text += $", {username}";
     }
 
     private void ProductsBtn_OnClick(object? sender, RoutedEventArgs e)

@@ -38,7 +38,8 @@ public partial class AuthWindow : Window
         adapter.Fill(table);
         if (table.Rows.Count > 0)
         {
-            MainWindow mainWindow = new MainWindow();
+            string username = table.Rows[0]["full_name"].ToString();
+            MainWindow mainWindow = new MainWindow(username);
             this.Hide();
             mainWindow.Show();
         }

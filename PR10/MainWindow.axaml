@@ -19,8 +19,7 @@
         <Grid Grid.Row="0">
             <Image Source="Images/clown.png" HorizontalAlignment="Left"></Image>
             <TextBlock  Name="Block" Text="Добро пожаловать" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Light"></TextBlock>
-            <TextBlock Name="UsernameTBlock" HorizontalAlignment="Right" VerticalAlignment="Center" FontWeight="Light" x:CompileBindings="False" Text="{Binding FullName}"/>
-        </Grid>
+            </Grid>
         <Grid Grid.Row="1" Background="CornflowerBlue"></Grid>
         <Grid Grid.Row="3" Background="CornflowerBlue"></Grid>
         <Panel Grid.Row="2" Name="MainPanel">
