@@ -4,24 +4,24 @@
     <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
-    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
-    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\lonah\.nuget\packages\</NuGetPackageFolders>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/home/KHPK.RU/student/.nuget/packages/</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/home/KHPK.RU/student/.nuget/packages/</NuGetPackageFolders>
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
     <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.6.0</NuGetToolVersion>
   </PropertyGroup>
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <SourceRoot Include="C:\Users\lonah\.nuget\packages\" />
+    <SourceRoot Include="/home/KHPK.RU/student/.nuget/packages/" />
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Import Project="$(NuGetPackageRoot)skiasharp.nativeassets.webassembly\2.88.3\buildTransitive\netstandard1.0\SkiaSharp.NativeAssets.WebAssembly.props" Condition="Exists('$(NuGetPackageRoot)skiasharp.nativeassets.webassembly\2.88.3\buildTransitive\netstandard1.0\SkiaSharp.NativeAssets.WebAssembly.props')" />
-    <Import Project="$(NuGetPackageRoot)microcom.codegenerator.msbuild\0.11.0\buildTransitive\MicroCom.CodeGenerator.MSBuild.props" Condition="Exists('$(NuGetPackageRoot)microcom.codegenerator.msbuild\0.11.0\buildTransitive\MicroCom.CodeGenerator.MSBuild.props')" />
-    <Import Project="$(NuGetPackageRoot)avalonia\11.0.2\buildTransitive\Avalonia.props" Condition="Exists('$(NuGetPackageRoot)avalonia\11.0.2\buildTransitive\Avalonia.props')" />
-    <Import Project="$(NuGetPackageRoot)harfbuzzsharp.nativeassets.webassembly\2.8.2.3\buildTransitive\netstandard1.0\HarfBuzzSharp.NativeAssets.WebAssembly.props" Condition="Exists('$(NuGetPackageRoot)harfbuzzsharp.nativeassets.webassembly\2.8.2.3\buildTransitive\netstandard1.0\HarfBuzzSharp.NativeAssets.WebAssembly.props')" />
+    <Import Project="$(NuGetPackageRoot)skiasharp.nativeassets.webassembly/2.88.3/buildTransitive/netstandard1.0/SkiaSharp.NativeAssets.WebAssembly.props" Condition="Exists('$(NuGetPackageRoot)skiasharp.nativeassets.webassembly/2.88.3/buildTransitive/netstandard1.0/SkiaSharp.NativeAssets.WebAssembly.props')" />
+    <Import Project="$(NuGetPackageRoot)microcom.codegenerator.msbuild/0.11.0/buildTransitive/MicroCom.CodeGenerator.MSBuild.props" Condition="Exists('$(NuGetPackageRoot)microcom.codegenerator.msbuild/0.11.0/buildTransitive/MicroCom.CodeGenerator.MSBuild.props')" />
+    <Import Project="$(NuGetPackageRoot)avalonia/11.0.2/buildTransitive/Avalonia.props" Condition="Exists('$(NuGetPackageRoot)avalonia/11.0.2/buildTransitive/Avalonia.props')" />
+    <Import Project="$(NuGetPackageRoot)harfbuzzsharp.nativeassets.webassembly/2.8.2.3/buildTransitive/netstandard1.0/HarfBuzzSharp.NativeAssets.WebAssembly.props" Condition="Exists('$(NuGetPackageRoot)harfbuzzsharp.nativeassets.webassembly/2.8.2.3/buildTransitive/netstandard1.0/HarfBuzzSharp.NativeAssets.WebAssembly.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">C:\Users\lonah\.nuget\packages\microsoft.codeanalysis.analyzers\3.0.0</PkgMicrosoft_CodeAnalysis_Analyzers>
-    <PkgMicroCom_CodeGenerator_MSBuild Condition=" '$(PkgMicroCom_CodeGenerator_MSBuild)' == '' ">C:\Users\lonah\.nuget\packages\microcom.codegenerator.msbuild\0.11.0</PkgMicroCom_CodeGenerator_MSBuild>
-    <PkgAvalonia_BuildServices Condition=" '$(PkgAvalonia_BuildServices)' == '' ">C:\Users\lonah\.nuget\packages\avalonia.buildservices\0.0.28</PkgAvalonia_BuildServices>
-    <PkgAvalonia Condition=" '$(PkgAvalonia)' == '' ">C:\Users\lonah\.nuget\packages\avalonia\11.0.2</PkgAvalonia>
+    <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">/home/KHPK.RU/student/.nuget/packages/microsoft.codeanalysis.analyzers/3.0.0</PkgMicrosoft_CodeAnalysis_Analyzers>
+    <PkgMicroCom_CodeGenerator_MSBuild Condition=" '$(PkgMicroCom_CodeGenerator_MSBuild)' == '' ">/home/KHPK.RU/student/.nuget/packages/microcom.codegenerator.msbuild/0.11.0</PkgMicroCom_CodeGenerator_MSBuild>
+    <PkgAvalonia_BuildServices Condition=" '$(PkgAvalonia_BuildServices)' == '' ">/home/KHPK.RU/student/.nuget/packages/avalonia.buildservices/0.0.28</PkgAvalonia_BuildServices>
+    <PkgAvalonia Condition=" '$(PkgAvalonia)' == '' ">/home/KHPK.RU/student/.nuget/packages/avalonia/11.0.2</PkgAvalonia>
   </PropertyGroup>
 </Project>

@@ -7,7 +7,7 @@
         x:Class="PR10.MainWindow"
         Title="PR10"
         ExtendClientAreaToDecorationsHint="True"
-        Width="1280"
+        Width="1500"
         Height="900">
     <Grid>
         <Grid.RowDefinitions>
@@ -19,6 +19,7 @@
         <Grid Grid.Row="0">
             <Image Source="Images/clown.png" HorizontalAlignment="Left"></Image>
             <TextBlock  Name="Block" Text="Добро пожаловать" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Light"></TextBlock>
+            <TextBlock Name="UsernameTBlock" HorizontalAlignment="Right" VerticalAlignment="Center" FontWeight="Light" x:CompileBindings="False" Text="{Binding FullName}"/>
         </Grid>
         <Grid Grid.Row="1" Background="CornflowerBlue"></Grid>
         <Grid Grid.Row="3" Background="CornflowerBlue"></Grid>

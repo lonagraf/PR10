@@ -15,7 +15,7 @@
     <DockPanel>
         <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" Margin="5">
             <Button Name="AddBtn" Content="Добавить" Background="Transparent" BorderBrush="CornflowerBlue" BorderThickness="2" Margin="5" Click="AddBtn_OnClick"/>
-            <Button Name="DeleteBtn" Content="Удалить" Background="Transparent" BorderBrush="CornflowerBlue" BorderThickness="2" Margin="5"/>
+            <Button Name="DeleteBtn" Content="Удалить" Background="Transparent" BorderBrush="CornflowerBlue" BorderThickness="2" Margin="5" Click="DeleteBtn_OnClick"/>
             <TextBlock Text="Поиск:" Margin="5 12 5 0"/>
             <TextBox Name="SearchTBox" Width="200" Margin="5" TextChanged="SearchTBox_OnTextChanged"/>
         </StackPanel>

@@ -51,12 +51,12 @@ public partial class AuthWindow : Window
                 var box = MessageBoxManager.GetMessageBoxStandard("Ошибка","Неверный логин или пароль.", ButtonEnum.Ok);
                 var result = box.ShowAsync();
             }
-            else if (attemptsCount >= 3)
+            /*else if (attemptsCount >= 3)
             {
                 captchaNeed = true;
                 var box = MessageBoxManager.GetMessageBoxStandard("Ошибка","Неверный логин или пароль. Вход заблокирован на 10 секунд.", ButtonEnum.Ok);
                 var result = box.ShowAsync();
-            }
+            }*/
             else
             {
                 captchaNeed = false;

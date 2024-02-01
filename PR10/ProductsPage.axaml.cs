@@ -90,37 +90,34 @@ public partial class ProductsPage : UserControl
             Panel.Children.Add(addProductPage);
         }
     }
-
-    private void Delete(int id)
+    private async void DeleteBtn_OnClick(object? sender, RoutedEventArgs e)
     {
-        _db.OpenConnection();
-        string sql = "delete from product where product_id = @id";
-        MySqlCommand command = new MySqlCommand(sql, _db.GetConnection());
-        command.Parameters.AddWithValue("@id", id);
-        command.ExecuteNonQuery();
-    }
-    
-        /*Product selectedProduct= LBoxProducts.SelectedItem as Product;
+            Product selectedProduct= LBoxProducts.SelectedItem as Product;
 
-        if (selectedProduct != null)
-        {
-            var box = MessageBoxManager.GetMessageBoxStandard("Предупреждение", "Вы уверены что хотите удалить?", ButtonEnum.YesNo);
-            var result = await box.ShowAsync();
-            if (result == ButtonResult.Yes)
+            if (selectedProduct != null)
             {
-                Delete(selectedProduct.ProductId);
-                var success = MessageBoxManager.GetMessageBoxStandard("Успешно", "Данные успешно удалены!", ButtonEnum.Ok);
-                var result1 = success.ShowAsync();
+                var box = MessageBoxManager.GetMessageBoxStandard("Предупреждение", "Вы уверены что хотите удалить?", ButtonEnum.YesNo);
+                var result = await box.ShowAsync();
+                if (result == ButtonResult.Yes)
+                {
+                    _db.OpenConnection();
+                    string sql = "delete from product where product_id = " + selectedProduct.ProductId;
+                    MySqlCommand command = new MySqlCommand(sql, _db.GetConnection());
+                    command.ExecuteNonQuery();
+                    _db.CloseConnection();
+                    var success = MessageBoxManager.GetMessageBoxStandard("Успешно", "Данные успешно удалены!", ButtonEnum.Ok);
+                    var result1 = success.ShowAsync();
+                }
+                else
+                {
+                    var error = MessageBoxManager.GetMessageBoxStandard("Отмена", "Операция удаления отменена!", ButtonEnum.Ok);
+                    var result1 = error.ShowAsync();
+                }
             }
             else
             {
-                var error = MessageBoxManager.GetMessageBoxStandard("Отмена", "Операция удаления отменена!", ButtonEnum.Ok);
-                var result1 = error.ShowAsync();
+                var box = MessageBoxManager.GetMessageBoxStandard("Ошибка", "Выберите проект для удаления!", ButtonEnum.Ok);
+                var result = box.ShowAsync();
             }
-        }
-        else
-        {
-            var box = MessageBoxManager.GetMessageBoxStandard("Ошибка", "Выберите проект для удаления!", ButtonEnum.Ok);
-            var result = box.ShowAsync();
-        }*/
+    }
 }
