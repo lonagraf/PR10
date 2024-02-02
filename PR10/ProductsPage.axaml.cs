@@ -121,4 +121,14 @@ public partial class ProductsPage : UserControl
                 var result = box.ShowAsync();
             }
     }
+
+    private void FilterCBox_OnSelectionChanged(object? sender, SelectionChangedEventArgs e)
+    {
+        throw new NotImplementedException();
+    }
+
+    private void OrderByBtn_OnClick(object? sender, RoutedEventArgs e)
+    {
+       
+    }
 }

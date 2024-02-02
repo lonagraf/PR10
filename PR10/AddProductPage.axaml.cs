@@ -1,9 +1,11 @@
 using System;
+using System.IO;
 using System.Text;
 using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Interactivity;
 using Avalonia.Markup.Xaml;
+using Avalonia.Platform.Storage;
 using MsBox.Avalonia;
 using MsBox.Avalonia.Enums;
 using MySql.Data.MySqlClient;
@@ -72,6 +74,7 @@ public partial class AddProductPage : UserControl
             command.Parameters.AddWithValue("@article", ArticleTBox.Text);
             command.Parameters.AddWithValue("@max", MaxDiscountTBox.Text);
             command.Parameters.AddWithValue("@current", CurrentDiscountTBox.Text);
+            
             command.ExecuteNonQuery();
             var box = MessageBoxManager.GetMessageBoxStandard("Успешно", "Данные успешно добавлены", ButtonEnum.Ok,
                 Icon.Success);
@@ -197,4 +200,25 @@ public partial class AddProductPage : UserControl
         return selectedId;
     }
 
+    private async void ImageBtn_OnClick(object? sender, RoutedEventArgs e)
+    {
+        /*var topLevel = TopLevel.GetTopLevel(this);
+
+        // Start async operation to open the dialog.
+        var files = await topLevel.StorageProvider.OpenFilePickerAsync(new FilePickerOpenOptions
+        {
+            Title = "Open Text File",
+            AllowMultiple = false
+        });
+
+        if (files.Count >= 1)
+        {
+            // Open reading stream from the first file.
+            await using var stream = await files[0].OpenReadAsync();
+            using var streamReader = new StreamReader(stream);
+            // Reads all the content of file as a text.
+            var fileContent = await streamReader.ReadToEndAsync();
+        }*/
+        
+    }
 }

@@ -18,6 +18,14 @@
             <Button Name="DeleteBtn" Content="Удалить" Background="Transparent" BorderBrush="CornflowerBlue" BorderThickness="2" Margin="5" Click="DeleteBtn_OnClick"/>
             <TextBlock Text="Поиск:" Margin="5 12 5 0"/>
             <TextBox Name="SearchTBox" Width="200" Margin="5" TextChanged="SearchTBox_OnTextChanged"/>
+            <TextBlock Text="Фильтрация:" Margin="5 12 5 0"/>
+            <ComboBox Name="FilterCBox" Width="150" Margin="5" SelectionChanged="FilterCBox_OnSelectionChanged"/>
+            <Button Name="OrderByBtn" Width="40" Height="35" Background="Transparent" BorderBrush="CornflowerBlue" BorderThickness="2" Click="OrderByBtn_OnClick">
+                <StackPanel>
+                    <Image Source="Images/swap.png"/>
+                </StackPanel>
+            </Button>
+            <CheckBox Name="OrderByCheckBox" Margin="5"/>
         </StackPanel>
 
         <Grid>

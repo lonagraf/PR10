@@ -617,159 +617,315 @@ C:/Users/lonah/RiderProjects/PR10v2/PR10/obj/Debug/net7.0/ref/PR10.dll
 /home/KHPK.RU/student/Рабочий стол/PR10v2/PR10/obj/Debug/net7.0/PR10.csproj.CopyComplete
 /home/KHPK.RU/student/Рабочий стол/PR10v2/PR10/obj/Debug/net7.0/PR10.genruntimeconfig.cache
 /home/KHPK.RU/student/Рабочий стол/PR10v2/PR10/obj/Debug/net7.0/ref/PR10.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\PR10.exe
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\PR10.deps.json
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\PR10.runtimeconfig.json
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\PR10.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\PR10.pdb
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\Avalonia.Base.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\Avalonia.Controls.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\Avalonia.DesignerSupport.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\Avalonia.Dialogs.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\Avalonia.Markup.Xaml.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\Avalonia.Markup.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\Avalonia.Metal.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\Avalonia.MicroCom.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\Avalonia.OpenGL.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\Avalonia.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\Avalonia.Controls.ColorPicker.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\Avalonia.Controls.DataGrid.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\Avalonia.Controls.ItemsRepeater.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\Avalonia.Desktop.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\Avalonia.Diagnostics.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\Avalonia.Fonts.Inter.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\Avalonia.FreeDesktop.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\Avalonia.Native.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\Avalonia.Remote.Protocol.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\Avalonia.Skia.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\Avalonia.Themes.Fluent.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\Avalonia.Themes.Simple.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\Avalonia.Win32.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\Avalonia.X11.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\BouncyCastle.Cryptography.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\ColorTextBlock.Avalonia.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\DialogHost.Avalonia.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\FluentAvalonia.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\Google.Protobuf.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\HarfBuzzSharp.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\K4os.Compression.LZ4.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\K4os.Compression.LZ4.Streams.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\K4os.Hash.xxHash.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\Markdown.Avalonia.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\MsBox.Avalonia.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\MicroCom.Runtime.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\Microsoft.CodeAnalysis.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\Microsoft.CodeAnalysis.Scripting.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\MySql.Data.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\SkiaSharp.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\System.Drawing.Common.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\System.IO.Pipelines.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\System.Reactive.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\System.Security.Permissions.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\System.Windows.Extensions.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\Tmds.DBus.Protocol.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\ZstdSharp.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.resources.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.resources.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.resources.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.resources.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.resources.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.resources.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.resources.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.resources.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.resources.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.resources.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\runtimes\win-arm64\native\av_libglesv2.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\runtimes\win-x64\native\av_libglesv2.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\runtimes\win-x86\native\av_libglesv2.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\runtimes\osx\native\libAvaloniaNative.dylib
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\runtimes\linux-arm\native\libHarfBuzzSharp.so
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\runtimes\linux-arm64\native\libHarfBuzzSharp.so
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\runtimes\linux-musl-x64\native\libHarfBuzzSharp.so
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\runtimes\linux-x64\native\libHarfBuzzSharp.so
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\runtimes\osx\native\libHarfBuzzSharp.dylib
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\runtimes\win-arm64\native\libHarfBuzzSharp.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\runtimes\win-x64\native\libHarfBuzzSharp.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\runtimes\win-x86\native\libHarfBuzzSharp.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\runtimes\win-x64\native\comerr64.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\runtimes\win-x64\native\gssapi64.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\runtimes\win-x64\native\k5sprt64.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\runtimes\win-x64\native\krb5_64.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\runtimes\win-x64\native\krbcc64.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\runtimes\linux-arm\native\libSkiaSharp.so
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\runtimes\linux-arm64\native\libSkiaSharp.so
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\runtimes\linux-musl-x64\native\libSkiaSharp.so
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\runtimes\linux-x64\native\libSkiaSharp.so
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\runtimes\osx\native\libSkiaSharp.dylib
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\runtimes\win-arm64\native\libSkiaSharp.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\runtimes\win-x64\native\libSkiaSharp.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\runtimes\win-x86\native\libSkiaSharp.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\obj\Debug\net7.0\PR10.csproj.AssemblyReference.cache
-C:\Users\lonah\RiderProjects\PR10v3\PR10\obj\Debug\net7.0\Avalonia\Resources.Inputs.cache
-C:\Users\lonah\RiderProjects\PR10v3\PR10\obj\Debug\net7.0\Avalonia\resources
-C:\Users\lonah\RiderProjects\PR10v3\PR10\obj\Debug\net7.0\PR10.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\lonah\RiderProjects\PR10v3\PR10\obj\Debug\net7.0\PR10.AssemblyInfoInputs.cache
-C:\Users\lonah\RiderProjects\PR10v3\PR10\obj\Debug\net7.0\PR10.AssemblyInfo.cs
-C:\Users\lonah\RiderProjects\PR10v3\PR10\obj\Debug\net7.0\PR10.csproj.CoreCompileInputs.cache
-C:\Users\lonah\RiderProjects\PR10v3\PR10\obj\Debug\net7.0\Avalonia\references
-C:\Users\lonah\RiderProjects\PR10v3\PR10\obj\Debug\net7.0\Avalonia\original.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\obj\Debug\net7.0\Avalonia\original.pdb
-C:\Users\lonah\RiderProjects\PR10v3\PR10\obj\Debug\net7.0\Avalonia\original.ref.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\obj\Debug\net7.0\refint\PR10.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\obj\Debug\net7.0\PR10.dll
-C:\Users\lonah\RiderProjects\PR10v3\PR10\obj\Debug\net7.0\PR10.pdb
-C:\Users\lonah\RiderProjects\PR10v3\PR10\obj\Debug\net7.0\PR10.csproj.CopyComplete
-C:\Users\lonah\RiderProjects\PR10v3\PR10\obj\Debug\net7.0\PR10.genruntimeconfig.cache
-C:\Users\lonah\RiderProjects\PR10v3\PR10\obj\Debug\net7.0\ref\PR10.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/PR10.exe
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/PR10.deps.json
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/PR10.runtimeconfig.json
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/PR10.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/PR10.pdb
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/Avalonia.Base.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/Avalonia.Controls.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/Avalonia.DesignerSupport.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/Avalonia.Dialogs.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/Avalonia.Markup.Xaml.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/Avalonia.Markup.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/Avalonia.Metal.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/Avalonia.MicroCom.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/Avalonia.OpenGL.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/Avalonia.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/Avalonia.Controls.ColorPicker.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/Avalonia.Controls.DataGrid.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/Avalonia.Controls.ItemsRepeater.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/Avalonia.Desktop.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/Avalonia.Diagnostics.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/Avalonia.Fonts.Inter.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/Avalonia.FreeDesktop.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/Avalonia.Native.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/Avalonia.Remote.Protocol.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/Avalonia.Skia.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/Avalonia.Themes.Fluent.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/Avalonia.Themes.Simple.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/Avalonia.Win32.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/Avalonia.X11.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/BouncyCastle.Cryptography.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/ColorTextBlock.Avalonia.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/DialogHost.Avalonia.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/FluentAvalonia.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/Google.Protobuf.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/HarfBuzzSharp.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/K4os.Compression.LZ4.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/K4os.Compression.LZ4.Streams.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/K4os.Hash.xxHash.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/Markdown.Avalonia.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/MsBox.Avalonia.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/MicroCom.Runtime.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/Microsoft.CodeAnalysis.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/Microsoft.CodeAnalysis.CSharp.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/Microsoft.CodeAnalysis.Scripting.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/Microsoft.Win32.SystemEvents.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/MySql.Data.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/SkiaSharp.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/System.Configuration.ConfigurationManager.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/System.Drawing.Common.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/System.IO.Pipelines.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/System.Reactive.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/System.Security.Cryptography.ProtectedData.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/System.Security.Permissions.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/System.Windows.Extensions.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/Tmds.DBus.Protocol.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/ZstdSharp.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.resources.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.resources.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.resources.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.resources.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.resources.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.resources.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.resources.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.resources.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.resources.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.resources.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/runtimes/win-arm64/native/av_libglesv2.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/runtimes/win-x64/native/av_libglesv2.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/runtimes/win-x86/native/av_libglesv2.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/runtimes/osx/native/libAvaloniaNative.dylib
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/runtimes/linux-arm/native/libHarfBuzzSharp.so
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/runtimes/linux-arm64/native/libHarfBuzzSharp.so
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/runtimes/linux-musl-x64/native/libHarfBuzzSharp.so
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/runtimes/linux-x64/native/libHarfBuzzSharp.so
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/runtimes/osx/native/libHarfBuzzSharp.dylib
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/runtimes/win-arm64/native/libHarfBuzzSharp.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/runtimes/win-x64/native/libHarfBuzzSharp.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/runtimes/win-x86/native/libHarfBuzzSharp.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/runtimes/win-x64/native/comerr64.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/runtimes/win-x64/native/gssapi64.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/runtimes/win-x64/native/k5sprt64.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/runtimes/win-x64/native/krb5_64.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/runtimes/win-x64/native/krbcc64.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/runtimes/linux-arm/native/libSkiaSharp.so
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/runtimes/linux-arm64/native/libSkiaSharp.so
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/runtimes/linux-musl-x64/native/libSkiaSharp.so
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/runtimes/linux-x64/native/libSkiaSharp.so
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/runtimes/osx/native/libSkiaSharp.dylib
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/runtimes/win-arm64/native/libSkiaSharp.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/runtimes/win-x64/native/libSkiaSharp.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/runtimes/win-x86/native/libSkiaSharp.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/obj/Debug/net7.0/PR10.csproj.AssemblyReference.cache
+C:/Users/lonah/RiderProjects/PR10v3/PR10/obj/Debug/net7.0/Avalonia/Resources.Inputs.cache
+C:/Users/lonah/RiderProjects/PR10v3/PR10/obj/Debug/net7.0/Avalonia/resources
+C:/Users/lonah/RiderProjects/PR10v3/PR10/obj/Debug/net7.0/PR10.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/lonah/RiderProjects/PR10v3/PR10/obj/Debug/net7.0/PR10.AssemblyInfoInputs.cache
+C:/Users/lonah/RiderProjects/PR10v3/PR10/obj/Debug/net7.0/PR10.AssemblyInfo.cs
+C:/Users/lonah/RiderProjects/PR10v3/PR10/obj/Debug/net7.0/PR10.csproj.CoreCompileInputs.cache
+C:/Users/lonah/RiderProjects/PR10v3/PR10/obj/Debug/net7.0/Avalonia/references
+C:/Users/lonah/RiderProjects/PR10v3/PR10/obj/Debug/net7.0/Avalonia/original.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/obj/Debug/net7.0/Avalonia/original.pdb
+C:/Users/lonah/RiderProjects/PR10v3/PR10/obj/Debug/net7.0/Avalonia/original.ref.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/obj/Debug/net7.0/refint/PR10.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/obj/Debug/net7.0/PR10.dll
+C:/Users/lonah/RiderProjects/PR10v3/PR10/obj/Debug/net7.0/PR10.pdb
+C:/Users/lonah/RiderProjects/PR10v3/PR10/obj/Debug/net7.0/PR10.csproj.CopyComplete
+C:/Users/lonah/RiderProjects/PR10v3/PR10/obj/Debug/net7.0/PR10.genruntimeconfig.cache
+C:/Users/lonah/RiderProjects/PR10v3/PR10/obj/Debug/net7.0/ref/PR10.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/PR10
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/PR10.deps.json
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/PR10.runtimeconfig.json
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/PR10.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/PR10.pdb
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/Avalonia.Base.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/Avalonia.Controls.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/Avalonia.DesignerSupport.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/Avalonia.Dialogs.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/Avalonia.Markup.Xaml.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/Avalonia.Markup.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/Avalonia.Metal.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/Avalonia.MicroCom.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/Avalonia.OpenGL.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/Avalonia.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/Avalonia.Controls.ColorPicker.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/Avalonia.Controls.DataGrid.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/Avalonia.Controls.ItemsRepeater.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/Avalonia.Desktop.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/Avalonia.Diagnostics.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/Avalonia.Fonts.Inter.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/Avalonia.FreeDesktop.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/Avalonia.Native.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/Avalonia.Remote.Protocol.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/Avalonia.Skia.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/Avalonia.Themes.Fluent.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/Avalonia.Themes.Simple.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/Avalonia.Win32.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/Avalonia.X11.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/BouncyCastle.Cryptography.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/ColorTextBlock.Avalonia.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/DialogHost.Avalonia.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/FluentAvalonia.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/Google.Protobuf.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/HarfBuzzSharp.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/K4os.Compression.LZ4.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/K4os.Compression.LZ4.Streams.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/K4os.Hash.xxHash.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/Markdown.Avalonia.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/MsBox.Avalonia.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/MicroCom.Runtime.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/Microsoft.CodeAnalysis.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/Microsoft.CodeAnalysis.CSharp.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/Microsoft.CodeAnalysis.CSharp.Scripting.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/Microsoft.CodeAnalysis.Scripting.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/Microsoft.Win32.SystemEvents.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/MySql.Data.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/SkiaSharp.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/System.Configuration.ConfigurationManager.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/System.Drawing.Common.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/System.IO.Pipelines.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/System.Reactive.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/System.Security.Cryptography.ProtectedData.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/System.Security.Permissions.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/System.Windows.Extensions.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/Tmds.DBus.Protocol.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/ZstdSharp.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.resources.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.resources.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.resources.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.resources.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.resources.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.resources.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.resources.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.resources.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.resources.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.resources.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/cs/Microsoft.CodeAnalysis.Scripting.resources.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/de/Microsoft.CodeAnalysis.Scripting.resources.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/es/Microsoft.CodeAnalysis.Scripting.resources.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/fr/Microsoft.CodeAnalysis.Scripting.resources.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/it/Microsoft.CodeAnalysis.Scripting.resources.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/ja/Microsoft.CodeAnalysis.Scripting.resources.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/ko/Microsoft.CodeAnalysis.Scripting.resources.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/pl/Microsoft.CodeAnalysis.Scripting.resources.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/pt-BR/Microsoft.CodeAnalysis.Scripting.resources.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/ru/Microsoft.CodeAnalysis.Scripting.resources.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/tr/Microsoft.CodeAnalysis.Scripting.resources.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.Scripting.resources.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.Scripting.resources.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/runtimes/win-arm64/native/av_libglesv2.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/runtimes/win-x64/native/av_libglesv2.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/runtimes/win-x86/native/av_libglesv2.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/runtimes/osx/native/libAvaloniaNative.dylib
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/runtimes/linux-arm/native/libHarfBuzzSharp.so
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/runtimes/linux-arm64/native/libHarfBuzzSharp.so
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/runtimes/linux-musl-x64/native/libHarfBuzzSharp.so
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/runtimes/linux-x64/native/libHarfBuzzSharp.so
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/runtimes/osx/native/libHarfBuzzSharp.dylib
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/runtimes/win-arm64/native/libHarfBuzzSharp.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/runtimes/win-x64/native/libHarfBuzzSharp.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/runtimes/win-x86/native/libHarfBuzzSharp.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/runtimes/win-x64/native/comerr64.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/runtimes/win-x64/native/gssapi64.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/runtimes/win-x64/native/k5sprt64.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/runtimes/win-x64/native/krb5_64.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/runtimes/win-x64/native/krbcc64.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/runtimes/linux-arm/native/libSkiaSharp.so
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/runtimes/linux-arm64/native/libSkiaSharp.so
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/runtimes/linux-musl-x64/native/libSkiaSharp.so
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/runtimes/linux-x64/native/libSkiaSharp.so
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/runtimes/osx/native/libSkiaSharp.dylib
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/runtimes/win-arm64/native/libSkiaSharp.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/runtimes/win-x64/native/libSkiaSharp.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/runtimes/win-x86/native/libSkiaSharp.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/obj/Debug/net7.0/PR10.csproj.AssemblyReference.cache
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/obj/Debug/net7.0/Avalonia/Resources.Inputs.cache
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/obj/Debug/net7.0/Avalonia/resources
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/obj/Debug/net7.0/PR10.GeneratedMSBuildEditorConfig.editorconfig
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/obj/Debug/net7.0/PR10.AssemblyInfoInputs.cache
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/obj/Debug/net7.0/PR10.AssemblyInfo.cs
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/obj/Debug/net7.0/PR10.csproj.CoreCompileInputs.cache
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/obj/Debug/net7.0/Avalonia/references
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/obj/Debug/net7.0/Avalonia/original.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/obj/Debug/net7.0/Avalonia/original.pdb
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/obj/Debug/net7.0/Avalonia/original.ref.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/obj/Debug/net7.0/refint/PR10.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/obj/Debug/net7.0/PR10.dll
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/obj/Debug/net7.0/PR10.pdb
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/obj/Debug/net7.0/PR10.csproj.CopyComplete
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/obj/Debug/net7.0/PR10.genruntimeconfig.cache
+/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/obj/Debug/net7.0/ref/PR10.dll

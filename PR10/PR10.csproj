@@ -28,5 +28,7 @@
       <AvaloniaResource Include="Images\clown.png" />
       <None Remove="Images\picture.png" />
       <AvaloniaResource Include="Images\picture.png" />
+      <None Remove="Images\swap.png" />
+      <AvaloniaResource Include="Images\swap.png" />
     </ItemGroup>
 </Project>

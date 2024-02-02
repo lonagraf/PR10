@@ -13,19 +13,19 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PR10
-build_property.ProjectDir = C:\Users\lonah\RiderProjects\PR10v3\PR10\
+build_property.ProjectDir = /home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/
 
-[C:/Users/lonah/RiderProjects/PR10v3/PR10/AddProductPage.axaml]
+[/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/AddProductPage.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/lonah/RiderProjects/PR10v3/PR10/App.axaml]
+[/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/lonah/RiderProjects/PR10v3/PR10/AuthWindow.axaml]
+[/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/AuthWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/lonah/RiderProjects/PR10v3/PR10/MainWindow.axaml]
+[/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/lonah/RiderProjects/PR10v3/PR10/ProductsPage.axaml]
+[/home/KHPK.RU/student/Рабочий стол/PR10v3/PR10/ProductsPage.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
