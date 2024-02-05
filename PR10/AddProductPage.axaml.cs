@@ -1,6 +1,7 @@
 using System;
 using System.IO;
 using System.Text;
+using System.Threading.Tasks;
 using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Interactivity;
@@ -16,6 +17,7 @@ public partial class AddProductPage : UserControl
 {
     private Database _db = new Database();
     private Product _product;
+    private byte[] _imageBytes;
 
     public AddProductPage(Product product)
     {
@@ -56,8 +58,8 @@ public partial class AddProductPage : UserControl
         if (_product == null)
         {
             string sql =
-                "insert into product (product_name, category, amount, unit, supplier, price, description, producer, article, max_discount, current_discount) " +
-                "values (@product, @category, @amount, @unit, @supplier, @price, @desc, @producer, @article, @max, @current)";
+                "insert into product (product_name, category, amount, unit, supplier, price, description, producer, article, max_discount, current_discount, image) " +
+                "values (@product, @category, @amount, @unit, @supplier, @price, @desc, @producer, @article, @max, @current, @image)";
             MySqlCommand command = new MySqlCommand(sql, _db.GetConnection());
             command.Parameters.AddWithValue("@product", NameTBox.Text);
             int selectedCategoryId = GetSelectedCategoryId(CategoryCmb.SelectedItem.ToString());
@@ -74,6 +76,7 @@ public partial class AddProductPage : UserControl
             command.Parameters.AddWithValue("@article", ArticleTBox.Text);
             command.Parameters.AddWithValue("@max", MaxDiscountTBox.Text);
             command.Parameters.AddWithValue("@current", CurrentDiscountTBox.Text);
+            command.Parameters.AddWithValue("@image", _imageBytes);
             
             command.ExecuteNonQuery();
             var box = MessageBoxManager.GetMessageBoxStandard("Успешно", "Данные успешно добавлены", ButtonEnum.Ok,
@@ -84,7 +87,7 @@ public partial class AddProductPage : UserControl
         {
             string sql =
                 "update product set product_name = @product, category = @category, amount = @amount, unit = @unit, supplier = @supplier, " +
-                "price = @price, description = @desc, producer = @producer, article = @article, max_discount = @max, current_discount = @current " +
+                "price = @price, description = @desc, producer = @producer, article = @article, max_discount = @max, current_discount = @current, image = @image " +
                 "where product_id = @id";
             MySqlCommand command = new MySqlCommand(sql, _db.GetConnection());
             command.Parameters.AddWithValue("@id", _product.ProductId);
@@ -103,6 +106,7 @@ public partial class AddProductPage : UserControl
             command.Parameters.AddWithValue("@article", ArticleTBox.Text);
             command.Parameters.AddWithValue("@max", MaxDiscountTBox.Text);
             command.Parameters.AddWithValue("@current", CurrentDiscountTBox.Text);
+            command.Parameters.AddWithValue("@image", _imageBytes);
             command.ExecuteNonQuery();
             var box = MessageBoxManager.GetMessageBoxStandard("Успешно", "Данные успешно сохранены", ButtonEnum.Ok,
                 Icon.Success);
@@ -202,7 +206,7 @@ public partial class AddProductPage : UserControl
 
     private async void ImageBtn_OnClick(object? sender, RoutedEventArgs e)
     {
-        /*var topLevel = TopLevel.GetTopLevel(this);
+        var topLevel = TopLevel.GetTopLevel(this);
 
         // Start async operation to open the dialog.
         var files = await topLevel.StorageProvider.OpenFilePickerAsync(new FilePickerOpenOptions
@@ -213,12 +217,21 @@ public partial class AddProductPage : UserControl
 
         if (files.Count >= 1)
         {
-            // Open reading stream from the first file.
-            await using var stream = await files[0].OpenReadAsync();
-            using var streamReader = new StreamReader(stream);
-            // Reads all the content of file as a text.
-            var fileContent = await streamReader.ReadToEndAsync();
-        }*/
+            await using var imageStream = await files[0].OpenReadAsync();
+
+            // Convert the image stream to byte array.
+            _imageBytes = await ConvertStreamToBytesAsync(imageStream);  // Use the class-level variable
+        }
         
     }
+
+    private async Task<byte[]> ConvertStreamToBytesAsync(Stream stream)
+    {
+        using (MemoryStream memoryStream = new MemoryStream())
+        {
+            await stream.CopyToAsync(memoryStream);
+            return memoryStream.ToArray();
+        }
+    }
+    
 }

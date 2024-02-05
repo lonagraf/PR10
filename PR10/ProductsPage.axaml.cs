@@ -77,7 +77,7 @@ public partial class ProductsPage : UserControl
     private void AddBtn_OnClick(object? sender, RoutedEventArgs e)
     {
         Panel.Children.Clear();
-        AddProductPage addProductPage = new AddProductPage(null); //допилить
+        AddProductPage addProductPage = new AddProductPage(null); 
         Panel.Children.Add(addProductPage);
     }
 
@@ -106,6 +106,7 @@ public partial class ProductsPage : UserControl
                     MySqlCommand command = new MySqlCommand(sql, _db.GetConnection());
                     command.ExecuteNonQuery();
                     _db.CloseConnection();
+                    _products.Remove(selectedProduct);
                     var success = MessageBoxManager.GetMessageBoxStandard("Успешно", "Данные успешно удалены!", ButtonEnum.Ok);
                     var result1 = success.ShowAsync();
                 }

@@ -8,7 +8,8 @@
         Title="PR10"
         ExtendClientAreaToDecorationsHint="True"
         Width="1500"
-        Height="900">
+        Height="900"
+        WindowStartupLocation="CenterScreen">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="70"/>
