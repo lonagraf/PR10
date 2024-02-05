@@ -22,6 +22,7 @@ public partial class ProductsPage : UserControl
 {
     private Database _db = new Database();
     private ObservableCollection<Product> _products = new ObservableCollection<Product>();
+    private ObservableCollection<Producer> _producers = new ObservableCollection<Producer>();
 
     private string _sql =
         "select product_id, article, product_name, unit_name, price, max_discount, producer_name, supplier_name, category_name, current_discount, amount, description, image from product" +
@@ -33,7 +34,7 @@ public partial class ProductsPage : UserControl
     {
         InitializeComponent();
         ShowTable(_sql);
-        
+        LoadDataFilterCBox();
     }
 
     public void ShowTable(string sql)
@@ -123,13 +124,52 @@ public partial class ProductsPage : UserControl
             }
     }
 
+    private void LoadDataFilterCBox()
+    {
+        _db.OpenConnection();
+        string sql = "select producer_name from producer";
+        MySqlCommand command = new MySqlCommand(sql, _db.GetConnection());
+        MySqlDataReader reader = command.ExecuteReader();
+        while (reader.Read() && reader.HasRows)
+        {
+            var currentProducer = new Producer()
+            {
+                ProducerName = reader.GetString("producer_name")
+            };
+            _producers.Add(currentProducer);
+        }
+        _db.CloseConnection();
+        _producers.Insert(0, new Producer{ProducerName = "Все производители"});
+        FilterCBox.ItemsSource = _producers;
+        
+    }
+
     private void FilterCBox_OnSelectionChanged(object? sender, SelectionChangedEventArgs e)
     {
-        throw new NotImplementedException();
+
+        var selectedProducer = FilterCBox.SelectedItem as Producer;
+        if (selectedProducer.ProducerName == "Все производители")
+        {
+            LBoxProducts.ItemsSource = _products;
+        }
+        else
+        {
+            var filter = _products.Where(x => x.Producer == selectedProducer.ProducerName).ToList();
+            LBoxProducts.ItemsSource = filter;
+        }
     }
 
     private void OrderByBtn_OnClick(object? sender, RoutedEventArgs e)
     {
-       
+        if (OrderByCheckBox.IsChecked == true)
+        {
+            ObservableCollection<Product> sort = new ObservableCollection<Product>(_products.OrderBy(x => x.Price).ToList());
+            LBoxProducts.ItemsSource = sort;
+        }
+        else
+        {
+            ObservableCollection<Product> sort = new ObservableCollection<Product>(_products.OrderByDescending(x => x.Price).ToList());
+            LBoxProducts.ItemsSource = sort;
+        }
     }
 }

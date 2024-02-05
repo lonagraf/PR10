@@ -31,4 +31,24 @@
       <None Remove="Images\swap.png" />
       <AvaloniaResource Include="Images\swap.png" />
     </ItemGroup>
+
+
+    <ItemGroup>
+      <Compile Update="AddProductPage.axaml.cs">
+        <DependentUpon>AddProductPage.axaml</DependentUpon>
+        <SubType>Code</SubType>
+      </Compile>
+      <Compile Update="AuthWindow.axaml.cs">
+        <DependentUpon>AuthWindow.axaml</DependentUpon>
+        <SubType>Code</SubType>
+      </Compile>
+      <Compile Update="MainWindow.axaml.cs">
+        <DependentUpon>MainWindow.axaml</DependentUpon>
+        <SubType>Code</SubType>
+      </Compile>
+      <Compile Update="ProductsPage.axaml.cs">
+        <DependentUpon>ProductsPage.axaml</DependentUpon>
+        <SubType>Code</SubType>
+      </Compile>
+    </ItemGroup>
 </Project>
