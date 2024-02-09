@@ -23,22 +23,41 @@ public partial class ProductsPage : UserControl
     private Database _db = new Database();
     private ObservableCollection<Product> _products = new ObservableCollection<Product>();
     private ObservableCollection<Producer> _producers = new ObservableCollection<Producer>();
-
+    private int userRole;
+    private bool isMainSPanelNeed = true;
     private string _sql =
         "select product_id, article, product_name, unit_name, price, max_discount, producer_name, supplier_name, category_name, current_discount, amount, description, image from product" +
         " join producer p on p.producer_id = product.producer" +
         " join supplier s on product.supplier = s.supplier_id" +
         " join unit u on product.unit = u.unit_id" +
         " join product_category pc on product.category = pc.product_category_id";
-    public ProductsPage()
+    public ProductsPage(int role)
     {
         InitializeComponent();
         ShowTable(_sql);
         LoadDataFilterCBox();
+        userRole = role;
+        switch (userRole)
+        {
+            case 1:
+                MainSPanel.IsVisible = true;
+                break;
+            case 2:
+                MainSPanel.IsVisible = false;
+                break;
+            case 3:
+                MainSPanel.IsVisible = false;
+                break;
+            default:
+                MainSPanel.IsVisible = false;
+                break;
+        }
     }
 
     public void ShowTable(string sql)
     {
+        try
+        {
         _db.OpenConnection();
         MySqlCommand command = new MySqlCommand(sql, _db.GetConnection());
         MySqlDataReader reader = command.ExecuteReader();
@@ -64,6 +83,12 @@ public partial class ProductsPage : UserControl
         }
         _db.CloseConnection();
         LBoxProducts.ItemsSource = _products;
+        }
+        catch (Exception ex)
+        {
+            var error = MessageBoxManager.GetMessageBoxStandard("Ошибка", "Ошибка " + ex, ButtonEnum.Ok, Icon.Error);
+            var result = error.ShowAsync();
+        }
     }
     
 
@@ -84,21 +109,27 @@ public partial class ProductsPage : UserControl
 
     private void LBoxProducts_OnDoubleTapped(object? sender, TappedEventArgs e)
     {
-        Product selectedProduct = LBoxProducts.SelectedItem as Product;
-        if (selectedProduct != null)
+        if (userRole == 1)
         {
-            Panel.Children.Clear();
-            AddProductPage addProductPage = new AddProductPage(selectedProduct);
-            Panel.Children.Add(addProductPage);
+            Product selectedProduct = LBoxProducts.SelectedItem as Product;
+            if (selectedProduct != null)
+            {
+                Panel.Children.Clear();
+                AddProductPage addProductPage = new AddProductPage(selectedProduct);
+                Panel.Children.Add(addProductPage);
+            }
         }
     }
     private async void DeleteBtn_OnClick(object? sender, RoutedEventArgs e)
     {
-            Product selectedProduct= LBoxProducts.SelectedItem as Product;
+        try
+        {
+            Product selectedProduct = LBoxProducts.SelectedItem as Product;
 
             if (selectedProduct != null)
             {
-                var box = MessageBoxManager.GetMessageBoxStandard("Предупреждение", "Вы уверены что хотите удалить?", ButtonEnum.YesNo);
+                var box = MessageBoxManager.GetMessageBoxStandard("Предупреждение", "Вы уверены что хотите удалить?",
+                    ButtonEnum.YesNo);
                 var result = await box.ShowAsync();
                 if (result == ButtonResult.Yes)
                 {
@@ -108,20 +139,30 @@ public partial class ProductsPage : UserControl
                     command.ExecuteNonQuery();
                     _db.CloseConnection();
                     _products.Remove(selectedProduct);
-                    var success = MessageBoxManager.GetMessageBoxStandard("Успешно", "Данные успешно удалены!", ButtonEnum.Ok);
+                    var success =
+                        MessageBoxManager.GetMessageBoxStandard("Успешно", "Данные успешно удалены!", ButtonEnum.Ok);
                     var result1 = success.ShowAsync();
                 }
                 else
                 {
-                    var error = MessageBoxManager.GetMessageBoxStandard("Отмена", "Операция удаления отменена!", ButtonEnum.Ok);
+                    var error = MessageBoxManager.GetMessageBoxStandard("Отмена", "Операция удаления отменена!",
+                        ButtonEnum.Ok);
                     var result1 = error.ShowAsync();
                 }
             }
             else
             {
-                var box = MessageBoxManager.GetMessageBoxStandard("Ошибка", "Выберите проект для удаления!", ButtonEnum.Ok);
+                var box = MessageBoxManager.GetMessageBoxStandard("Ошибка", "Выберите товарчкт для удаления!",
+                    ButtonEnum.Ok);
                 var result = box.ShowAsync();
             }
+
+        }
+        catch (Exception ex)
+        {
+            var error = MessageBoxManager.GetMessageBoxStandard("Ошибка", "Ошибка " + ex, ButtonEnum.Ok, Icon.Error);
+            var result = error.ShowAsync();
+        }
     }
 
     private void LoadDataFilterCBox()
@@ -161,7 +202,7 @@ public partial class ProductsPage : UserControl
 
     private void OrderByBtn_OnClick(object? sender, RoutedEventArgs e)
     {
-        if (OrderByCheckBox.IsChecked == true)
+        if (OrderByCBox.IsChecked == true)
         {
             ObservableCollection<Product> sort = new ObservableCollection<Product>(_products.OrderBy(x => x.Price).ToList());
             LBoxProducts.ItemsSource = sort;

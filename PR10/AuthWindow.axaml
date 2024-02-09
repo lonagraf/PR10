@@ -28,6 +28,7 @@
             <TextBlock Name="CaptchaTBlock" FontSize="20" FontWeight="Bold" FontStretch="Expanded" Foreground="CornflowerBlue" HorizontalAlignment="Center"/>
             <TextBox Name="CaptchaTBox" Width="150"/>
             <Button Name="AuthBtn" Content="Войти" HorizontalAlignment="Center" Margin="5" Background="Transparent" BorderBrush="CornflowerBlue" Click="AuthBtn_OnClick"/>
+            <TextBlock Name="GuestTBlock" Text="Войти как гость" HorizontalAlignment="Center" FontSize="12" FontWeight="ExtraLight" Tapped="GuestTBlock_OnTapped"/>
         </StackPanel>
         <Grid Grid.Row="1" Background="CornflowerBlue"/>
         <Grid Grid.Row="3" Background="CornflowerBlue"/>

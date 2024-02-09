@@ -13,7 +13,7 @@
     </UserControl.Resources>
     <Panel Name="Panel">
     <DockPanel>
-        <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" Margin="5">
+        <StackPanel Name="MainSPanel" DockPanel.Dock="Top" Orientation="Horizontal" Margin="5">
             <Button Name="AddBtn" Content="Добавить" Background="Transparent" BorderBrush="CornflowerBlue" BorderThickness="2" Margin="5" Click="AddBtn_OnClick"/>
             <Button Name="DeleteBtn" Content="Удалить" Background="Transparent" BorderBrush="CornflowerBlue" BorderThickness="2" Margin="5" Click="DeleteBtn_OnClick"/>
             <TextBlock Text="Поиск:" Margin="5 12 5 0"/>
@@ -27,7 +27,7 @@
                     <Image Source="Images/swap.png"/>
                 </StackPanel>
             </Button>
-            <CheckBox Name="OrderByCheckBox" Margin="5">
+            <CheckBox Name="OrderByCBox" Margin="5">
                 <StackPanel>
                     <TextBlock>По возрастанию</TextBlock>
                 </StackPanel>
