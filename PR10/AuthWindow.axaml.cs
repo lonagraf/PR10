@@ -108,6 +108,7 @@ public partial class AuthWindow : Window
     private void GuestTBlock_OnTapped(object? sender, TappedEventArgs e)
     {
         MainWindow mainWindow = new MainWindow(null, 0);
+        this.Hide();
         mainWindow.Show();
     }
 }

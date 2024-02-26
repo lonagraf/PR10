@@ -48,7 +48,7 @@ public partial class AddProductPage : UserControl
     private void BackBtn_OnClick(object? sender, RoutedEventArgs e)
     {
         Panel.Children.Clear();
-        ProductsPage productsPage = new ProductsPage(0);
+        ProductsPage productsPage = new ProductsPage(1);
         Panel.Children.Add(productsPage);
     }
 
